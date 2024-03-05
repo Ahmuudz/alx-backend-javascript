@@ -1,10 +1,18 @@
 {
   "scripts": {
+<<<<<<< HEAD
     "lint": "eslint",
     "check-lint": "lint [0-9]*.js",
     "dev": "npx babel-node",
     "test": "jest",
     "full-test": "eslint [0-9]*.js && jest"
+=======
+    "lint": "./node_modules/.bin/eslint",
+    "check-lint": "lint [0-9]*.js",
+    "dev": "npx babel-node",
+    "test": "jest",
+    "full-test": "./node_modules/.bin/eslint [0-9]*.js && jest"
+>>>>>>> 82144228bf6bd9388925a8d64a7c6c6bf61818c4
   },
   "devDependencies": {
     "@babel/core": "^7.6.0",
@@ -15,6 +23,7 @@
     "eslint-plugin-import": "^2.18.2",
     "eslint-plugin-jest": "^22.17.0",
     "jest": "^24.9.0"
+<<<<<<< HEAD
   },
   "name": "clear",
   "version": "1.0.0",
@@ -31,4 +40,7 @@
   },
   "homepage": "https://github.com/Ahmuudz/alx-backend-javascript#readme",
   "description": ""
+=======
+  }
+>>>>>>> 82144228bf6bd9388925a8d64a7c6c6bf61818c4
 }
